@@ -1,0 +1,4 @@
+D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake.dir
+D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen.dir

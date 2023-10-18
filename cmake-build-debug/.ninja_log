@@ -1,0 +1,38 @@
+# ninja log v5
+1009	10028	7190021986680285	CMakeFiles/GreedySnake.dir/Sources/snake.cpp.obj	7bcfee7982423920
+4	144	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+4	144	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+837	10981	7193131354425166	CMakeFiles/GreedySnake.dir/Sources/mainwindow.cpp.obj	99371f3bf2230ce7
+4	144	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+4	144	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+145	10429	7193134029437499	CMakeFiles/GreedySnake.dir/Sources/main.cpp.obj	9ed618019db1b910
+635	3199	7193131276578370	CMakeFiles/GreedySnake.dir/GreedySnake_autogen/mocs_compilation.cpp.obj	8ab659a93371f9c1
+10430	11368	7193134034283133	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	d82579abf3a759b9
+184	7244	7190381237184465	CMakeFiles/GreedySnake.dir/Sources/MyButton.cpp.obj	f46916a803f40bc
+2	653	7193118070605274	build.ninja	135f496ed6be266e
+687	10730	7190018621296282	CMakeFiles/GreedySnake.dir/Sources/widget.cpp.obj	520c584225042724
+818	8892	7190021975335218	CMakeFiles/GreedySnake.dir/Sources/food.cpp.obj	e848542aaba47bae
+4	144	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+4	144	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+870	5713	7190516230401043	CMakeFiles/GreedySnake.dir/Sources/ExitButton.cpp.obj	53ee63234e85334
+142	3970	7193124213013744	CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj	18b1022e6e207fe2
+7	185	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+7	185	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+7	185	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+7	185	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+7	185	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+7	185	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+187	11116	7193143992817072	CMakeFiles/GreedySnake.dir/Sources/main.cpp.obj	9ed618019db1b910
+11117	12118	7193143998299965	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	d82579abf3a759b9
+5	191	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+5	191	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+5	191	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+5	191	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+5	191	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+5	191	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+11	183	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+11	183	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+11	183	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+11	183	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+11	183	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+11	183	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
