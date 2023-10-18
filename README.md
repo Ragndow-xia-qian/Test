@@ -1,4 +1,4 @@
 # Greedy Snake
 #
 ## but this isn't a game
-## this is only a text project
+## this is only a test project
