@@ -2,6 +2,7 @@
 #include <QGuiApplication>
 #include <QRect>
 #include <QScreen>
+#include <QList>
 #include "Headers/mainwindow.h"
 #include "Headers/ExitButton.h"
 #include "Headers/MaximizeButton.h"
@@ -22,13 +23,19 @@ int main(int argc, char *argv[]) {
 
     window.setGeometry(windowRect);
 
-    QRect newRect = window.geometry();
+    QList<QPushButton *> buttons;
+    QList<std::pair<int, int>> rects;
 
     Button::ExitButton exitButton(&window);
     Button::MaximizeButton maximizeButton(&window);
 
-    exitButton.setText("X");
+    buttons.push_back(&exitButton);
+    buttons.push_back(&maximizeButton);
+
+    exitButton.setText("×");
     maximizeButton.setText("□");
+
+    QRect newRect = window.geometry();
 
     newRect.setTop(0);
     newRect.setBottom(windowRect.height() / 3);
@@ -37,12 +44,17 @@ int main(int argc, char *argv[]) {
 
     exitButton.setGeometry(newRect);
     exitButton.update();
+    rects.push_back({newRect.width(), newRect.height()});
 
     newRect.setLeft(windowRect.width() / 3);
     newRect.setRight(windowRect.width() / 3 * 2);
 
     maximizeButton.setGeometry(newRect);
     maximizeButton.update();
+    rects.push_back({newRect.width(), newRect.height()});
+
+    maximizeButton.setAssociation(buttons);
+    maximizeButton.setRects(rects);
 
     window.show();
 
