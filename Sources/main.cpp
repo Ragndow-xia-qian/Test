@@ -30,15 +30,16 @@ int main(int argc, char *argv[]) {
     exitButton.setText("X");
     maximizeButton.setText("□");
 
-    newRect.setY(0);
-    newRect.setX(newRect.width() / 3 * 2);
-    newRect.setBottom(newRect.height() / 3);
+    newRect.setTop(0);
+    newRect.setBottom(windowRect.height() / 3);
+    newRect.setLeft(windowRect.width() / 3 * 2);
+    newRect.setRight(windowRect.width());
 
     exitButton.setGeometry(newRect);
     exitButton.update();
 
-    newRect.setX(newRect.x() / 2);
-    newRect.setRight(newRect.width());
+    newRect.setLeft(windowRect.width() / 3);
+    newRect.setRight(windowRect.width() / 3 * 2);
 
     maximizeButton.setGeometry(newRect);
     maximizeButton.update();
