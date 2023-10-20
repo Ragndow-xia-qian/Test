@@ -55,6 +55,7 @@ int main(int argc, char *argv[]) {
 
     maximizeButton.setAssociation(buttons);
     maximizeButton.setRects(rects);
+    maximizeButton.linkedExitButton(&exitButton);
 
     window.show();
 

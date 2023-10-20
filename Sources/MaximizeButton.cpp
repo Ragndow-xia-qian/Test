@@ -4,6 +4,8 @@
 
 #include <QEvent>
 #include <QMainWindow>
+#include <QGuiApplication>
+#include <QScreen>
 #include "Headers/MaximizeButton.h"
 
 namespace Button {
@@ -15,27 +17,26 @@ namespace Button {
             if (p) {
                 if (p->windowState() == Qt::WindowMaximized) {
                     p->setWindowState(Qt::WindowNoState);
+                    exit->setGeometry(this->exit_init_rect);
+                    this->setGeometry(this->me_init_rect);
                 } else if (p->windowState() == Qt::WindowNoState) {
                     p->setWindowState(Qt::WindowMaximized);
-                }
-            }
 
-            QRect windowRect = p->geometry();
-            QRect newRect = p->geometry();
+                    QRect newRect = p->geometry();
 
-            for (int i = 0; i < this->ass.size(); ++i) {
-                auto &it = this->ass[i];
-                auto &[w, h] = this->rects[i];
-                newRect.setTop(0);
-                newRect.setBottom(h);
-                if (i == 0) {
-                    newRect.setRight(windowRect.right());
-                } else {
-                    newRect.setRight(newRect.right() - w);
+                    newRect.setRight(QGuiApplication::primaryScreen()->geometry().right() + rects.at(0).first);
+
+                    for (int i = 0; i < this->ass.size(); ++i) {
+                        auto &it = this->ass.at(i);
+                        auto &[w, h] = this->rects.at(i);
+                        newRect.setTop(0);
+                        newRect.setBottom(h);
+                        newRect.setRight(newRect.right() - w);
+                        newRect.setLeft(newRect.right() - w);
+                        it->setGeometry(newRect);
+                        it->update();
+                    }
                 }
-                newRect.setLeft(newRect.right() - w);
-                it->setGeometry(newRect);
-                it->update();
             }
         }
         if (_event->type() == QEvent::MouseButtonRelease) {

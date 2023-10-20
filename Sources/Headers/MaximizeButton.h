@@ -19,8 +19,17 @@ namespace Button {
         void setAssociation(const QList<QPushButton *> &ass);
         void setRects(const QList<std::pair<int, int>> &Rects);
 
+        void linkedExitButton(QPushButton *exitButton) {
+            this->exit = exitButton;
+            this->exit_init_rect = this->exit->geometry();
+            this->me_init_rect = this->geometry();
+        }
+
     private:
         bool event(QEvent *e) override;
+        QPushButton *exit{};
+        QRect exit_init_rect;
+        QRect me_init_rect;
         QList<QPushButton *> ass;
         QList<std::pair<int, int>> rects;
     };
