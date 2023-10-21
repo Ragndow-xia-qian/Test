@@ -89,6 +89,14 @@ build CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj: CXX_COMPILER__G
   OBJECT_DIR = CMakeFiles\GreedySnake.dir
   OBJECT_FILE_DIR = CMakeFiles\GreedySnake.dir\Sources
 
+build CMakeFiles/GreedySnake.dir/Sources/MinimizeButton.cpp.obj: CXX_COMPILER__GreedySnake_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/GreedySnake/Sources/MinimizeButton.cpp || cmake_object_order_depends_target_GreedySnake
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\GreedySnake.dir\Sources\MinimizeButton.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include" -I"D:/Code/cpp/Qt5 Projects/GreedySnake/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\GreedySnake.dir
+  OBJECT_FILE_DIR = CMakeFiles\GreedySnake.dir\Sources
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GreedySnake
@@ -97,7 +105,7 @@ build CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj: CXX_COMPILER__G
 #############################################
 # Link the executable D:\Code\cpp\Qt5 Projects\GreedySnake\bin\GreedySnake.exe
 
-build D$:/Code/cpp/Qt5$ Projects/GreedySnake/bin/GreedySnake.exe: CXX_EXECUTABLE_LINKER__GreedySnake_Debug CMakeFiles/GreedySnake.dir/GreedySnake_autogen/mocs_compilation.cpp.obj CMakeFiles/GreedySnake.dir/Sources/main.cpp.obj CMakeFiles/GreedySnake.dir/Sources/mainwindow.cpp.obj CMakeFiles/GreedySnake.dir/Sources/ExitButton.cpp.obj CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj | D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Widgetsd.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Guid.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Cored.a || GreedySnake_autogen
+build D$:/Code/cpp/Qt5$ Projects/GreedySnake/bin/GreedySnake.exe: CXX_EXECUTABLE_LINKER__GreedySnake_Debug CMakeFiles/GreedySnake.dir/GreedySnake_autogen/mocs_compilation.cpp.obj CMakeFiles/GreedySnake.dir/Sources/main.cpp.obj CMakeFiles/GreedySnake.dir/Sources/mainwindow.cpp.obj CMakeFiles/GreedySnake.dir/Sources/ExitButton.cpp.obj CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj CMakeFiles/GreedySnake.dir/Sources/MinimizeButton.cpp.obj | D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Widgetsd.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Guid.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Cored.a || GreedySnake_autogen
   FLAGS = -g
   LINK_LIBRARIES = D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Widgetsd.a  D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Guid.a  D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Cored.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GreedySnake.dir

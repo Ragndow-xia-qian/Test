@@ -18,6 +18,7 @@ namespace Button {
                 if (p->windowState() == Qt::WindowMaximized) {
                     p->setWindowState(Qt::WindowNoState);
                     exit->setGeometry(this->exit_init_rect);
+                    mini->setGeometry(this->mini_init_rect);
                     this->setGeometry(this->me_init_rect);
                 } else if (p->windowState() == Qt::WindowNoState) {
                     p->setWindowState(Qt::WindowMaximized);

@@ -89,6 +89,12 @@
 			null
 		],
 		[
+			"D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/MinimizeButton.h",
+			"MU",
+			"HUL6J7LJEB/moc_MinimizeButton.cpp",
+			null
+		],
+		[
 			"D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/mainwindow.h",
 			"MU",
 			"HUL6J7LJEB/moc_mainwindow.cpp",
@@ -157,6 +163,11 @@
 		],
 		[
 			"D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/MaximizeButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/MinimizeButton.cpp",
 			"MU",
 			null
 		],

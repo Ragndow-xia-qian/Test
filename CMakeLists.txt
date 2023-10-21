@@ -30,6 +30,8 @@ add_executable(GreedySnake Sources/main.cpp
         Sources/Headers/ExitButton.h
         Sources/MaximizeButton.cpp
         Sources/Headers/MaximizeButton.h
+        Sources/MinimizeButton.cpp
+        Sources/Headers/MinimizeButton.h
 )
 
 target_link_libraries(GreedySnake

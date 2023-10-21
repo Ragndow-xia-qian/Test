@@ -8,18 +8,21 @@ D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/widget.h
  mmc:Q_OBJECT
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/widget.cpp
  uic:Forms/ui_Widget.h
-D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/snake.h
- mmc:Q_OBJECT
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/snake.cpp
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/food.h
+ mmc:Q_OBJECT
+D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/snake.h
  mmc:Q_OBJECT
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/food.cpp
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/MyButton.h
  mmc:Q_OBJECT
+D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/MyButton.cpp
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/ExitButton.h
  mmc:Q_OBJECT
-D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/MyButton.cpp
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/ExitButton.cpp
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/MaximizeButton.h
  mmc:Q_OBJECT
 D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/MaximizeButton.cpp
+D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/Headers/MinimizeButton.h
+ mmc:Q_OBJECT
+D:/Code/cpp/Qt5 Projects/GreedySnake/Sources/MinimizeButton.cpp

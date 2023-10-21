@@ -25,10 +25,18 @@ namespace Button {
             this->me_init_rect = this->geometry();
         }
 
+        void linkedMiniButton(QPushButton *miniButton) {
+            this->mini = miniButton;
+            this->mini_init_rect = this->mini->geometry();
+            this->me_init_rect = this->geometry();
+        }
+
     private:
         bool event(QEvent *e) override;
         QPushButton *exit{};
+        QPushButton *mini{};
         QRect exit_init_rect;
+        QRect mini_init_rect;
         QRect me_init_rect;
         QList<QPushButton *> ass;
         QList<std::pair<int, int>> rects;
