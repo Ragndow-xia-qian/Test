@@ -28,4 +28,16 @@ namespace UI {
     Mainwindow::~Mainwindow() {
         delete ui;
     }
+
+    void Mainwindow::mousePressEvent(QMouseEvent *event) {
+        this->windowPos = this->pos();
+        this->mousePos = event->globalPos();
+        this->dPos = mousePos - windowPos;
+        QWidget::mousePressEvent(event);
+    }
+
+    void Mainwindow::mouseMoveEvent(QMouseEvent *event) {
+        this->move(event->globalPos() - this->dPos);
+        QWidget::mouseMoveEvent(event);
+    }
 } // UI

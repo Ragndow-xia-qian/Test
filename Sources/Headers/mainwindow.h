@@ -9,6 +9,7 @@
 #include <QApplication>
 #include <QDesktopWidget>
 #include <QPaintEvent>
+#include <QPoint>
 
 namespace UI {
     QT_BEGIN_NAMESPACE
@@ -27,7 +28,14 @@ namespace UI {
     private:
         void paintEvent(QPaintEvent *event) override;
 
+        void mousePressEvent(QMouseEvent *event) override;
+        void mouseMoveEvent(QMouseEvent *event) override;
+
         Ui::Mainwindow *ui;
+
+        QPoint windowPos;
+        QPoint mousePos;
+        QPoint dPos;
     };
 } // UI
 
