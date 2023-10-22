@@ -8,6 +8,15 @@
 #include "Headers/MaximizeButton.h"
 #include "Headers/MinimizeButton.h"
 
+auto putButton(QPushButton *button, QRect &rect, QRect &window, QList<QPushButton *> &buttons, QList<std::pair<int, int>> &rects) -> void {
+    buttons.push_back(button);
+    rects.push_back({rect.width(), rect.height()});
+    button->setGeometry(rect);
+    button->update();
+    rect.setLeft(rect.left() - window.width() / 10);
+    rect.setRight(rect.right() - window.width() / 10);
+}
+
 // TODO Main
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -31,10 +40,6 @@ int main(int argc, char *argv[]) {
     Button::MaximizeButton maximizeButton(&window);
     Button::MinimizeButton minimizeButton(&window);
 
-    buttons.push_back(&exitButton);
-    buttons.push_back(&maximizeButton);
-    buttons.push_back(&minimizeButton);
-
     exitButton.setText("×");
     maximizeButton.setText("□");
     minimizeButton.setText("—");
@@ -46,23 +51,9 @@ int main(int argc, char *argv[]) {
     newRect.setLeft(windowRect.width() / 10 * 9);
     newRect.setRight(windowRect.width());
 
-    exitButton.setGeometry(newRect);
-    exitButton.update();
-    rects.push_back({newRect.width(), newRect.height()});
-
-    newRect.setLeft(windowRect.width() / 10 * 8);
-    newRect.setRight(windowRect.width() / 10 * 9);
-
-    maximizeButton.setGeometry(newRect);
-    maximizeButton.update();
-    rects.push_back({newRect.width(), newRect.height()});
-
-    newRect.setLeft(windowRect.width() / 10 * 7);
-    newRect.setRight(windowRect.width() / 10 * 8);
-
-    minimizeButton.setGeometry(newRect);
-    minimizeButton.update();
-    rects.push_back({newRect.width(), newRect.height()});
+    putButton(&exitButton, newRect, windowRect, buttons, rects);
+    putButton(&maximizeButton, newRect, windowRect, buttons, rects);
+    putButton(&minimizeButton, newRect, windowRect, buttons, rects);
 
     maximizeButton.setAssociation(buttons);
     maximizeButton.setRects(rects);
