@@ -83,3 +83,23 @@
 4	123	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
 4	123	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
 4	123	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+18	169	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+18	169	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+18	169	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+18	169	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+18	169	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+18	169	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+170	3379	7196641013584625	CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj	18b1022e6e207fe2
+276	3464	7196641014454286	CMakeFiles/GreedySnake.dir/Sources/ExitButton.cpp.obj	53ee63234e85334
+342	4143	7196641021269001	CMakeFiles/GreedySnake.dir/Sources/MinimizeButton.cpp.obj	7bc028516a938315
+4143	5277	7196641027406294	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	e756e40588bca575
+4	119	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+4	119	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+4	119	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+4	119	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+4	119	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+4	119	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+194	2315	7196641343712956	CMakeFiles/GreedySnake.dir/Sources/MinimizeButton.cpp.obj	7bc028516a938315
+277	2329	7196641343843553	CMakeFiles/GreedySnake.dir/Sources/ExitButton.cpp.obj	53ee63234e85334
+120	2341	7196641343965818	CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj	18b1022e6e207fe2
+2341	3121	7196641348323735	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	e756e40588bca575
