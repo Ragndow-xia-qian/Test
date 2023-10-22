@@ -47,3 +47,21 @@
 461	2557	7196083123108477	CMakeFiles/GreedySnake.dir/Sources/main.cpp.obj	9ed618019db1b910
 547	2621	7196083123747182	CMakeFiles/GreedySnake.dir/Sources/MaximizeButton.cpp.obj	18b1022e6e207fe2
 2621	3335	7196083127622578	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	e756e40588bca575
+7	338	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+7	338	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+7	338	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+7	338	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+7	338	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+7	338	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+340	7093	7196438951811181	CMakeFiles/GreedySnake.dir/Sources/MinimizeButton.cpp.obj	7bc028516a938315
+7095	9764	7196438967356511	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	e756e40588bca575
+20	1190	0	CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+20	1190	0	GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+20	1190	0	GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+20	1190	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/CMakeFiles/GreedySnake_autogen	6468340a84c03fae
+20	1190	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/mocs_compilation.cpp	6468340a84c03fae
+20	1190	0	D:/Code/cpp/Qt5 Projects/GreedySnake/cmake-build-debug/GreedySnake_autogen/include/Sources/Forms/ui_mainwindow.h	6468340a84c03fae
+1191	7288	7196446388180499	CMakeFiles/GreedySnake.dir/Sources/main.cpp.obj	9ed618019db1b910
+1327	8028	7196446395407144	CMakeFiles/GreedySnake.dir/GreedySnake_autogen/mocs_compilation.cpp.obj	8ab659a93371f9c1
+1461	8727	7196446402528010	CMakeFiles/GreedySnake.dir/Sources/MinimizeButton.cpp.obj	7bc028516a938315
+8728	10436	7196446411868810	D:/Code/cpp/Qt5 Projects/GreedySnake/bin/GreedySnake.exe	e756e40588bca575

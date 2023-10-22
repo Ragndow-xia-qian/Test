@@ -6,6 +6,7 @@
 #define GREEDYSNAKE_MINIMIZEBUTTON_H
 
 #include <QPushButton>
+#include <QWindow>
 
 namespace Button {
 
@@ -17,6 +18,7 @@ namespace Button {
 
     private:
         bool event(QEvent *_event) override;
+        QFlags<Qt::WindowState> lastState = Qt::WindowNoState;
     };
 
 } // Button

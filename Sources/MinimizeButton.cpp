@@ -7,17 +7,22 @@
 #include <QEvent>
 #include <QMouseEvent>
 #include <QMainWIndow>
+#include <QDebug>
 
 namespace Button {
     bool MinimizeButton::event(QEvent *_event) {
+        auto p = reinterpret_cast<QMainWindow *>(this->parent());
         if (_event->type() == QEvent::MouseButtonPress) {
-            auto p = this->parent();
             if (p) {
-                reinterpret_cast<QMainWindow *>(p)->setWindowState(Qt::WindowMinimized);
+                this->lastState = p->windowState();
+                p->setWindowState(Qt::WindowMinimized);
             }
         }
         if (_event->type() == QEvent::MouseButtonRelease) {
 
+        }
+        if (_event->type() == QEvent::Show) {
+            p->setWindowState(this->lastState);
         }
         return QPushButton::event(_event);
     }
