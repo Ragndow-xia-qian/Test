@@ -16,7 +16,7 @@ namespace UI {
     }
 
     void Mainwindow::paintEvent(QPaintEvent *event) {
-        QLinearGradient gradient(0, 0, width(), height());
+        QLinearGradient gradient(0, 0, this->width(), this->height());
         gradient.setColorAt(0, Qt::red);
         gradient.setColorAt(1, Qt::darkRed);
         QPainter painter(this);
@@ -37,6 +37,9 @@ namespace UI {
     }
 
     void Mainwindow::mouseMoveEvent(QMouseEvent *event) {
+        if (this->windowState() == Qt::WindowMaximized) {
+            return;
+        }
         this->move(event->globalPos() - this->dPos);
         QWidget::mouseMoveEvent(event);
     }
