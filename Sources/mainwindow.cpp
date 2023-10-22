@@ -15,7 +15,8 @@ namespace UI {
         ui->setupUi(this);
     }
 
-    void Mainwindow::paintEvent(QPaintEvent *event) {QLinearGradient gradient(0, 0, width(), height());
+    void Mainwindow::paintEvent(QPaintEvent *event) {
+        QLinearGradient gradient(0, 0, width(), height());
         gradient.setColorAt(0, Qt::red);
         gradient.setColorAt(1, Qt::darkRed);
         QPainter painter(this);
