@@ -18,7 +18,8 @@ namespace Button {
         }
         if (_event->type() == QEvent::Paint) {
             this->setStyleSheet(
-                    "QPushButton{background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop:0 #1FB6F6,stop:1 #2C628C)}");
+                    "QPushButton{background: qlineargradient("
+                    "x1:0, y1:0, x2:1, y2:0,stop:0 #1FB6F6,stop:1 #2C628C)}");
         }
         if (_event->type() == QEvent::MouseButtonRelease) {
             if (p) {
