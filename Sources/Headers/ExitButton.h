@@ -5,6 +5,7 @@
 #ifndef GREEDYSNAKE_EXITBUTTON_H
 #define GREEDYSNAKE_EXITBUTTON_H
 
+#include <QWidget>
 #include <QPushButton>
 #include <QEvent>
 

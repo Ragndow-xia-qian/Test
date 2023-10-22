@@ -8,6 +8,7 @@
 #include <QMainWindow>
 #include <QApplication>
 #include <QDesktopWidget>
+#include <QPaintEvent>
 
 namespace UI {
     QT_BEGIN_NAMESPACE
@@ -24,6 +25,8 @@ namespace UI {
         ~Mainwindow() override;
 
     private:
+        void paintEvent(QPaintEvent *event) override;
+
         Ui::Mainwindow *ui;
     };
 } // UI
