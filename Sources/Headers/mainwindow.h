@@ -10,6 +10,8 @@
 #include <QDesktopWidget>
 #include <QPaintEvent>
 #include <QPoint>
+#include <QList>
+#include <QPushButton>
 
 namespace UI {
     QT_BEGIN_NAMESPACE
@@ -23,12 +25,16 @@ namespace UI {
     public:
         explicit Mainwindow(QWidget *parent = nullptr);
 
+        static auto putButton(QPushButton *button, QRect &rect, QRect &window, QList<QPushButton *> &buttons,
+                       QList<std::pair<int, int>> &rects) -> void;
+
         ~Mainwindow() override;
 
     private:
         void paintEvent(QPaintEvent *event) override;
 
         void mousePressEvent(QMouseEvent *event) override;
+
         void mouseMoveEvent(QMouseEvent *event) override;
 
         Ui::Mainwindow *ui;

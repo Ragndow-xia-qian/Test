@@ -8,15 +8,6 @@
 #include "Headers/MaximizeButton.h"
 #include "Headers/MinimizeButton.h"
 
-auto putButton(QPushButton *button, QRect &rect, QRect &window, QList<QPushButton *> &buttons, QList<std::pair<int, int>> &rects) -> void {
-    buttons.push_back(button);
-    rects.push_back({rect.width(), rect.height()});
-    button->setGeometry(rect);
-    button->update();
-    rect.setLeft(rect.left() - window.width() / 10);
-    rect.setRight(rect.right() - window.width() / 10);
-}
-
 // TODO Main
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -51,9 +42,9 @@ int main(int argc, char *argv[]) {
     newRect.setLeft(windowRect.width() / 10 * 9);
     newRect.setRight(windowRect.width());
 
-    putButton(&exitButton, newRect, windowRect, buttons, rects);
-    putButton(&maximizeButton, newRect, windowRect, buttons, rects);
-    putButton(&minimizeButton, newRect, windowRect, buttons, rects);
+    UI::Mainwindow::putButton(&exitButton, newRect, windowRect, buttons, rects);
+    UI::Mainwindow::putButton(&maximizeButton, newRect, windowRect, buttons, rects);
+    UI::Mainwindow::putButton(&minimizeButton, newRect, windowRect, buttons, rects);
 
     maximizeButton.setAssociation(buttons);
     maximizeButton.setRects(rects);

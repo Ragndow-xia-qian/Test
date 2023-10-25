@@ -6,6 +6,8 @@
 
 #include <QPainter>
 #include <QPaintEvent>
+#include <QPushButton>
+#include <QList>
 #include "Headers/mainwindow.h"
 #include "Forms/ui_Mainwindow.h"
 
@@ -42,5 +44,15 @@ namespace UI {
         }
         this->move(event->globalPos() - this->dPos);
         QWidget::mouseMoveEvent(event);
+    }
+
+    auto Mainwindow::putButton(QPushButton *button, QRect &rect, QRect &window, QList<QPushButton *> &buttons,
+                               QList<std::pair<int, int>> &rects) -> void  {
+        buttons.push_back(button);
+        rects.push_back({rect.width(), rect.height()});
+        button->setGeometry(rect);
+        button->update();
+        rect.setLeft(rect.left() - window.width() / 10);
+        rect.setRight(rect.right() - window.width() / 10);
     }
 } // UI
