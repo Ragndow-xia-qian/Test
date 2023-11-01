@@ -15,6 +15,8 @@ int main(int argc, char *argv[]) {
     UI::Mainwindow window;
 
     window.setWindowFlag(Qt::FramelessWindowHint);
+    window.setAttribute(Qt::WA_StyledBackground);
+    window.setAttribute(Qt::WA_TranslucentBackground);
 
     QRect windowRect = QGuiApplication::primaryScreen()->geometry();
     windowRect.setLeft(windowRect.width() / 4);
